@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+   display: flex;
+   justify-content: flex-start;
+   min-height: 120vh;
+   color: rgb(2, 2, 12);
+   font-family: CircularStd, sans-serif;
+   background: aliceblue;
+   margin-left: 280px;
+   padding-left: 40px;
+   padding-top: 20px;
+}
+
+.navbar2 .logo {
+  color: rgb(60, 127, 172);
+  font-size: 2.5em;
+  margin-top: -550px;
+  margin-left: 40px;
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+
+}
+
+.navbar2 .logo i {
+  color: rgb(60, 127, 172);
+  font-size: 1.4em;
+}
+
+.navbar2 * {
+  color: rgb(60, 127, 172);
+}
+
+
+.navbar2 {
+  position: fixed;
+  display: flex;
+  left: 0px;
+  top: 0px;
+  padding: 0;
+  background-color: rgb(5, 46, 67);
+  width: 280px;
+  height: 100vh;
+  justify-content: center;
+}
+
+.ser {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  width: 600px;
+  height: 5vh;
+  align-items: center;
+  padding-left: 10px;
+  margin-top: 10px;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.view {
+  margin-top: 20px;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  width: 1190px;
+  height: 30vh;
+  align-items: center;
+  padding-left: 10px;
+}
+
+
+.viewe {
+  margin-top: 20px;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  width: 1190px;
+  height: 50vh;
+  align-items: center;
+
+  padding-left: 10px;
+}
+
+.navbar2 .navlist {
+  margin-top: 0px;
+  width: 250px;
+  height: 80vh;
+  position: absolute;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 1.3em;
+
+}
+
+
+.navbar2 .navlist ul li {
+  display: flex;
+  margin: 30px 0;
+  font-size: 1.2em;
+
+
+}
+
+
+.navbar2 .navlist ul li :hover {
+  color: aliceblue;
+  display: flex;
+}
+
+.navbar2 .navlist i {
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+
+
+
+#popupContainer{
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  z-index: 9999;
+  background-color:transparent;
+  backdrop-filter: blur(0.6px);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#popupContainer #popup{
+  height: 350px;
+  width: 500px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  box-shadow: 0px 0px 8px 8px rgb(0, 0, 0, 0.1);
+  flex-direction: column;
+  overflow: hidden;
+}
+#popupContainer #popup p{
+  padding: 15px;
+  flex: 1;
+}
+#popupContainer #popup div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+
+
+#popupContainer #popup div :is(a, input){
+  margin: 8px;
+}
+
+#popupContainer #popup div .btn{
+  height: 1.8vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  padding: 25px 20px;
+  margin-top: 50px;
+
+}
+
+#popupContainer #popup div .btn-danger{
+  background-color: rgb(235, 44, 44); 
+  color: white;
+  border: none;
+ padding: 25px 35px;
+}
+
+#popupContainer #popup div .btnr-primary{
+   background-color:  rgb(5, 46, 67); 
+  border: none;
+  cursor: pointer;
+  height: 1.8vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  padding: 15px 20px 35px 25px;
+  margin-top: 50px;
+
+}
+
+#popupContainer #popup div .btn-danger:hover{
+  background-color: rgb(235, 70, 70);
+}
+
+#popupContainer #popup div .btnr-primary:hover{
+  background-color:  rgb(9, 63, 90);
+} 

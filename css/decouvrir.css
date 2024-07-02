@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: CircularStd, sans-serif;
+}
+
+body {
+    padding-top: 75px;
+}
+
+li a {
+    color: black;
+}
+
+
+.head {
+    padding-top: 15px;
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 75px;
+    align-items: center;
+    font-weight: 500;
+    position: fixed;
+    top: 0;
+    width: 90%;
+    z-index: 234567890;
+    background-color: rgb(255, 255, 255);
+    border: 0.5px rgb(245, 240, 240) solid;
+}
+
+.head .red {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    z-index: 1;
+}
+
+.head .red .headr {
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    margin-left: 40px;
+
+}
+
+.head .red .headr li a:hover {
+    text-decoration: underline aqua 2px solid;
+
+}
+
+.head .red .headm {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin-left: 70px;
+}
+
+.head .red .btn {
+    display: flex;
+    background-color: rgb(18, 229, 229);
+    border-radius: 30px;
+    height: 40px;
+    width: 17%;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+    font-weight: 600;
+    margin-right: 40px;
+}
+
+.head .red .btn li a {
+    color: aliceblue;
+}
+
+.form {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    backdrop-filter: blur(100px);
+    align-items: center;
+    height: 55px;
+    display: flex;
+    border-radius: 5px;
+    width: 400px;
+    border: 2px solid rgb(250, 247, 247);
+}
+
+.form input {
+    width: 54%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding-left: 30px;
+
+}
+
+
+
+
+.form i {
+    position: relative;
+    width: 6%;
+    padding-left: 8px;
+    font-size: 2em;
+    cursor: text;
+    color: aqua;
+}
+
+
+.form button {
+    width: 35%;
+    height: 80%;
+    margin-right: 0px;
+    background-color: rgb(255, 213, 0);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.decouvrir {
+    top: 0;
+    width: 100%;
+    margin-top: 17px;
+    background-color: rgb(255, 255, 253);
+}
+
+.decouvrir .search {
+    height: 20vh;
+    display: flex;
+    padding: 0 100px;
+    align-items: center;
+    display: flex;
+    border: 0.5px rgb(245, 240, 240) solid;
+}
+
+.decouvrir .search .id {
+    margin-left: 10px;
+    height: 30px;
+    width: 130px;
+    background-color: transparent;
+    border: 0.3px rgb(228, 226, 226) solid;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.decouvrir .search .id:hover{
+    background-color: rgb(18, 229, 229);
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+} 
+
+#TT{
+    width: 70px;
+}
+
+#TTT{
+    width: 90px;
+    margin-right: 10px;
+}
+.decouvrir .search .id .tl{
+    display: none;   
+    position: fixed;
+    width: 13%;
+    height: calc(50vh - (108px + 10vh));
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    flex-direction: column;
+    color: black;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    align-items: start;
+    padding-left: 20px;
+    z-index: 2;
+}
+
+.decouvrir .search .id .tl h3{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    
+}
+
+.decouvrir .search .id .tl a{
+    color: rgb(18, 229, 229);
+    bottom: 15px;
+    right: 15px;
+    position: absolute;
+    font-size: 1.1em;
+}
+
+.decouvrir .search .id .tl ul li  {
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+
+#showtl:hover > .tl{
+    display: flex;
+}
+
+#TTT:hover > .tl{
+    display: flex;
+}
+
+#TT:hover > .tl{
+    display: flex;
+}
+
+.decouvrir .log{
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.decouvrir .log h5{
+margin-top: 10px;
+margin-bottom: 20px;
+}
+
+.decouvrir .log .cont{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+#cadre{
+    width: 31%;
+    height: 45vh;
+    margin-bottom: 50px;
+    color: black;
+    border: 3px solid whitesmoke;
+    padding-left: 10px;
+}
+
+.decouvrir .log .cont #cadre .img1 {
+    width: 100%;
+    height: 25vh;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+#pp{
+    background-color: rgb(13, 216, 216);
+    color: aliceblue;
+    border-radius: 5px;
+    border: none;
+    align-items: center;
+    display: flex;
+    height: 2.5vh;
+   font-weight: 600;
+   padding-left: 4px;
+   margin-bottom: 1px;
+}
+
+#pp i{
+margin-bottom: 19px;
+}
+
+#opl{
+margin-left: 290px;
+display: flex;
+height:6vh;
+width: 150px;
+background-color: rgb(18, 229, 229);
+color: rgb(255, 255, 255);
+border: none;
+border-radius: 5px;
+font-weight: 600;
+cursor: pointer;
+}
+
+#opl:hover{
+    margin-top: -10px;
+}
+
+
+
+
+
+
+
+
+
+.fin{
+  margin-top: 35vh;
+    height: 65vh;
+    padding: 0 160px;
+}
+
+.fin .w{
+    display: flex;
+    width: 100%;
+    height: 15vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fin .w h1{
+    margin-left: 20px;
+}
+
+
+.fin .ww{
+    display: flex;
+    width: 100%;
+    height: 40vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fin .w p{
+    margin-left: 120px;
+  font-weight: 600;
+}
+
+#c{
+    width: 19%;
+    height: 30vh;
+    background-color: rgb(255, 255, 255);
+}
+
+#c ul{
+    margin-top: -15px;
+}
+
+#c button{
+    margin-top: 10px;
+    height: 6vh;
+    border: none;
+    background-color: rgb(13, 216, 216);
+    color: white;
+    border-radius: 20px;
+    width: 120px;
+    font-weight: 600;
+}
+
+#c ul li{
+    margin-top: 20px;
+}
+#c p{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+ 
+#c h3{
+    margin-left: 10px;
+}
+
+#c i{
+    font-size: 2.1em;
+}
+.fin .www{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -20px;
+}

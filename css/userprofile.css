@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: CircularStd, sans-serif;
+}
+
+body {
+    padding-top: 75px;
+}
+
+li a {
+    color: black;
+}
+
+
+.head {
+    padding-top: 15px;
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 75px;
+    align-items: center;
+    font-weight: 500;
+    position: fixed;
+    top: 0;
+    width: 90%;
+    z-index: 234567890;
+    background-color: rgb(255, 255, 255);
+    border: 0.5px rgb(245, 240, 240) solid;
+}
+
+.head .red {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    z-index: 1;
+}
+
+.head .red .headr {
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    margin-left: 40px;
+
+}
+
+.head .red .headr li a:hover {
+    text-decoration: underline aqua 2px solid;
+
+}
+
+.head .red .headm {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin-left: 70px;
+}
+
+.head .red .btn {
+    display: flex;
+    background-color: rgb(18, 229, 229);
+    border-radius: 30px;
+    height: 40px;
+    width: 17%;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+    font-weight: 600;
+    margin-right: 40px;
+}
+
+.head .red .btn li a {
+    color: aliceblue;
+}
+
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100vh;
+    align-items: center;
+    margin-left: 170px;
+    padding-top: 60px;
+}
+
+.profile #TT {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+
+}
+
+
+.profile #TT form div {
+
+    display: flex;
+    flex-direction: column;
+    height: 12vh;
+    margin-bottom: 30px;
+}
+
+
+.profile #TT form div input{
+    margin-top: 15px;
+    height: 8vh;
+    border: 1px solid rgb(37, 32, 32);
+    background: transparent;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.profile #TT form div input:focus{
+    outline: 3px solid rgb(158, 209, 248);
+}
+
+
+.profile #YY{
+    width: 50%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.profile #YY img{
+    width: 400px;
+    height: 350px;
+    border: 1px solid rgb(224, 231, 231);
+}
+
+
+.profile #TT form div #yi{
+    width: 70%;
+    height: 80%;
+    border-radius: 0px;
+    background-color: rgb(18, 229, 229);
+    color: white;
+    border: none;
+    outline: none;
+    margin-top: 0px;
+  
+}
+.fin {
+    margin-top: 10vh;
+    height: 65vh;
+    padding: 0 160px;
+}
+
+.fin .w {
+    display: flex;
+    width: 100%;
+    height: 15vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fin .w h1 {
+    margin-left: 20px;
+}
+
+
+.fin .ww {
+    display: flex;
+    width: 100%;
+    height: 40vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fin .w p {
+    margin-left: 120px;
+    font-weight: 600;
+}
+
+#c {
+    width: 19%;
+    height: 30vh;
+    background-color: rgb(255, 255, 255);
+}
+
+#c ul {
+    margin-top: -15px;
+}
+
+#c button {
+    margin-top: 10px;
+    height: 6vh;
+    border: none;
+    background-color: rgb(13, 216, 216);
+    color: white;
+    border-radius: 20px;
+    width: 120px;
+    font-weight: 600;
+}
+
+#c ul li {
+    margin-top: 20px;
+}
+
+#c p {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#c h3 {
+    margin-left: 10px;
+}
+
+#c i {
+    font-size: 2.1em;
+}
+
+.fin .www {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -20px;
+}
+
+
+
+#popupContainer{
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    z-index: 9999;
+    background-color:transparent;
+    backdrop-filter: blur(0.6px);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#popupContainer #popup{
+    height: 250px;
+    width: 500px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 0px 0px 8px 8px rgb(0, 0, 0, 0.1);
+    flex-direction: column;
+    overflow: hidden;
+}
+#popupContainer #popup p{
+    padding: 15px;
+    flex: 1;
+}
+#popupContainer #popup div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+
+
+#popupContainer #popup div :is(a, input){
+    margin: 8px;
+}
+
+#popupContainer #popup div .btn{
+    height: 1.8vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    padding: 15px 20px;
+
+}
+
+#popupContainer #popup div .btn-danger{
+    background-color: rgb(235, 44, 44);
+    color: white;
+    border: none;
+   padding: 15px 35px;
+}
+
+#popupContainer #popup div .btn-primary{
+    background-color: rgb(18, 229, 229);
+    border: none;
+    height: 1.8vh;
+}
+
+#popupContainer #popup div .btn-danger:hover{
+    background-color: rgb(235, 70, 70);
+}
+
+#popupContainer #popup div .btn-primary:hover{
+    background-color: rgb(21, 199, 199);
+}

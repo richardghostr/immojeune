@@ -1,0 +1,449 @@
+* {
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    padding-left: 280px;
+}
+
+.navbar2 .logo {
+    color: rgb(60, 127, 172);
+    font-size: 2.5em;
+    margin-top: -550px;
+    margin-left: 40px;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+
+}
+
+.navbar2 .logo i {
+    color: rgb(60, 127, 172);
+    font-size: 1.4em;
+}
+
+.navbar2 * {
+    color: rgb(60, 127, 172);
+}
+
+.navbare * {
+    color: rgb(0, 0, 0);
+
+}
+
+.navbare {
+    position: absolute;
+    display: inline;
+    top: 0;
+    left: 280px;
+    padding: 0 30px;
+
+    width: 1195px;
+    height: 100vh;
+    margin: 0;
+}
+
+.navbar2 {
+    position: fixed;
+    display: flex;
+    left: 0px;
+    top: 0px;
+    padding: 0;
+    background-color: rgb(5, 46, 67);
+    width: 280px;
+    height: 100vh;
+    justify-content: center;
+}
+
+.ser {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height: 5vh;
+    align-items: center;
+    padding-left: 10px;
+    margin-top: 10px;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.view {
+    margin-top: 20px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 1190px;
+    height: 30vh;
+    align-items: center;
+    padding-left: 10px;
+}
+
+
+.viewe {
+    margin-top: 20px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 1190px;
+    height: 50vh;
+    align-items: center;
+
+    padding-left: 10px;
+}
+
+.navbar2 .navlist {
+    margin-top: 0px;
+    width: 250px;
+    height: 80vh;
+    position: absolute;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 1.3em;
+
+}
+
+
+.navbar2 .navlist ul li {
+    display: flex;
+    margin: 30px 0;
+    font-size: 1.1em;
+
+
+}
+
+
+.navbar2 .navlist ul li :hover {
+    color: aliceblue;
+    display: flex;
+}
+
+.navbar2 .navlist i {
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.navbare.rr {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.nav {
+    height: 55%;
+    display: flex;
+    margin-right: 40px;
+    width: 550px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.nav li {
+    display: flex;
+    height: 140%;
+    align-items: center;
+    border-radius: 30px;
+    font-weight: 500;
+}
+
+.nav li a {
+    color: aqua;
+}
+
+.nav .i {
+    width: 160px;
+    padding-left: 15px;
+    background-color: aqua;
+
+}
+
+.nav .i a {
+    color: aliceblue;
+}
+
+
+.nav .ii {
+    width: 130px;
+    padding-left: 15px;
+    background-color: rgba(0, 255, 255, 0.207);
+}
+
+.nav .iii {
+    width: 110px;
+    padding-left: 15px;
+    background-color: rgba(0, 255, 255, 0.148);
+}
+
+
+.nav .iiii {
+    width: 65px;
+    padding-left: 15px;
+    background-color: rgba(0, 255, 255, 0.137);
+}
+
+
+
+.body {
+    height: 90vh;
+    margin-top: 10px;
+    margin-left: -20px;
+}
+
+.body .search {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 1255.5px;
+    height: 30vh;
+    border: rgb(218, 211, 211) 0.5px solid;
+    margin-left: -10px;
+    top: 0;
+
+}
+
+.body .search .form {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 30px;
+    height: 10vh;
+    width: 1000px;
+    justify-content: space-between;
+}
+
+.body .search input {
+    width: 220px;
+    height: 7vh;
+    border-radius: 10px;
+    padding-left: 10px;
+    background: white;
+    border: none;
+    backdrop-filter: blur(100px);
+    border: 0.1px solid rgb(63, 148, 233);
+    outline: none;
+}
+
+.body .search input:focus{
+    outline: 2px solid rgb(132, 194, 242);
+}
+
+.body .search select:focus{
+    outline: 2px solid rgb(132, 194, 242);
+}
+
+.body .search select {
+    width: 220px;
+    height: 7vh;
+    border-radius: 10px;
+    padding-left: 10px;
+    background: white;
+    border: none;
+    backdrop-filter: blur(100px);
+    border: 0.1px solid rgb(63, 148, 233);
+    outline: none;
+}
+.body .search .form .btn {
+    position: absolute;
+    margin-top: 130px;
+    margin-left: -20px;
+    outline: none;
+    cursor: text;
+    display: flex;
+}
+
+
+.body .search .form .btn button {
+    width: 200px;
+    height: 7vh;
+    border-radius: 10px;
+    margin-left: 20px;
+    border: none;
+    font-weight: 600;
+    margin-top: -10px;
+    outline: none;
+    cursor: pointer;
+}
+.body .search .form .btn label{
+    width: 200px;
+    height: 7vh;
+    border-radius: 10px;
+    margin-left: 20px;
+    border: none;
+    font-weight: 600;
+    margin-top: -10px;
+    outline: none;
+    cursor: pointer;
+}
+
+#o {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 157, 255);
+    border: 2px solid rgb(0, 157, 255);
+}
+#o:hover{
+    background-color: whitesmoke;
+}
+
+#oo:hover{
+    background-color: rgb(51, 138, 215);
+}
+
+#oo {
+    background-color: rgb(0, 157, 255);
+    color: rgb(255, 255, 255);
+}
+
+
+
+#ooo {
+    position: absolute;
+    width: 200px;
+    margin-left: 1040px;
+    margin-top: 155px;
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+
+}
+
+#ooo button {
+    border: none;
+}
+
+#ooo button a {
+    height: 6vh;
+    align-items: center;
+    display: flex;
+    border: none;
+    font-weight: 700;
+}
+
+table {
+    position: absolute;
+    margin-top: 230px;
+    width: 1245px;
+    
+}
+
+#tyo{
+    position: absolute;
+    background-color:aliceblue;
+    width: 18%;
+    display: flex;
+    border-radius: 10px;
+    z-index: -2;
+    padding-left: 10px;
+}
+
+#tyo p{
+margin: 5px 0;
+}
+#tyo2 p{
+    margin: 5px 0;
+    }
+    #tyo3 p{
+        margin: 5px 0;
+        }
+#tyo2{
+    position: absolute;
+    background-color: aliceblue;
+    width: 18%;
+    display: flex;
+    border-radius: 10px;
+    z-index: -2;
+    padding-left: 10px;
+}
+#tyo3{
+    position: absolute;
+    background-color: aliceblue;
+    width: 18%;
+    display: flex;
+    border-radius: 10px;
+    z-index: -2;
+    padding-left: 10px;
+}
+
+
+#popupContainer{
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    z-index: 9999;
+    background-color:transparent;
+    backdrop-filter: blur(0.6px);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#popupContainer #popup{
+    height: 250px;
+    width: 500px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 0px 0px 8px 8px rgb(0, 0, 0, 0.1);
+    flex-direction: column;
+    overflow: hidden;
+}
+#popupContainer #popup p{
+    padding: 15px;
+    flex: 1;
+}
+#popupContainer #popup div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+
+
+#popupContainer #popup div :is(a, input){
+    margin: 8px;
+}
+
+#popupContainer #popup div .btn{
+    height: 1.8vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    padding: 15px 20px;
+
+}
+
+#popupContainer #popup div .btn-danger{
+    /* background-color: rgb(235, 44, 44); */
+    color: white;
+    border: none;
+   padding: 15px 35px;
+}
+
+#popupContainer #popup div .btn-primary{
+    /* background-color: rgb(18, 229, 229); */
+    border: none;
+    height: 1.8vh;
+}
+/* 
+#popupContainer #popup div .btn-danger:hover{
+    background-color: rgb(235, 70, 70);
+}
+
+#popupContainer #popup div .btn-primary:hover{
+    background-color: rgb(21, 199, 199);
+} */
